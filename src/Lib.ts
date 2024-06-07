@@ -67,5 +67,5 @@ export const getDefaultWebLibConfiguration = () => {
         console.log('change')
         console.log(data)
     },
-    licenseKey: devLicenseKey
+    licenseKey: productionLicenseKey
 }}
