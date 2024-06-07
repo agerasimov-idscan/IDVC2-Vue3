@@ -2,7 +2,7 @@
     <transition name="fade">
         <div v-if="isVisible" class="popup-overlay">
             <div class="popup-content">
-                <button class="close-button" @click="close">Close</button>
+                <button class="button close-button" @click="close">Close</button>
                 <slot></slot>
                 <div id="videoCapturingEl"></div>
             </div>

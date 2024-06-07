@@ -1,6 +1,6 @@
 <template>
     <div>
-        <button @click="openPopup">Open</button>
+        <button class="button" @click="openPopup">Open</button>
         <PopUp :isVisible="isPopupVisible" @update:isVisible="handleUpdate">
         </PopUp>
     </div>
